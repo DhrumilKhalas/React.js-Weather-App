@@ -1,0 +1,159 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  border: 2px solid white;
+  margin-top: 100px;
+  padding: 20px;
+  width: 30%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.weatherextra {
+  display: flex;
+  gap: 20px;
+}
+.inputinner {
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  color: antiquewhite;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+}
+.inputinner::placeholder {
+  color: antiquewhite;
+}
+input[type="text"] {
+  text-indent: 15px;
+}
+.iconInner {
+  /* height: 500px; */
+  /* width: 500px; */
+  margin-top: 20px;
+}
+.middleDiv {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.temp {
+  font-size: 70px;
+  color:cornflowerblue;
+}
+.tempa{
+  font-size: 70px;
+  color:white;
+}
+.tempaa{
+  font-size: 70px;
+  color:crimson;
+}
+.city {
+  font-size: xx-large;
+}
+.weather {
+  font-size: larger;
+}
+.weatherextra {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  height: 60px;
+}
+.weatherextrainner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#errorSpan {
+  color: antiquewhite;
+  text-align: center;
+  align-items: center;
+}
+@media only screen and (min-width:320px) {
+  .Main {
+    border: none;
+    padding: 5px;
+  }
+  .middleDiv {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .temp {
+    font-size: 60px;
+  }
+  .city {
+    font-size: x-large;
+  }
+  .weather {
+    font-size: large;
+  }
+  .weatherextra {
+    width: 90vw;
+  }
+  .iconInner {
+    height: 100px;
+    width: 100px;
+  }
+  .inputinner {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    color: antiquewhite;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 50vw;
+  }
+}
+@media only screen and (min-width:768px){
+    .Main {
+        display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  border: 2px solid white;
+  margin-top: 100px;
+  padding: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+      }
+      .temp {
+        font-size: 70px;
+      }
+      .city {
+        font-size: xx-large;
+      }
+      .weather {
+        font-size: larger;
+      }
+      .weatherextra {
+        width: 60vw;
+      }
+      .iconInner {
+        height: 150px;
+        width: 150px;
+      }
+      .inputinner{
+        width:30vw;
+      }
+      .middleDiv {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+      }
+      
+}
